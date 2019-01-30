@@ -8,7 +8,7 @@
 |:-----------:|
 |![Login][]| 
 
-### Game Login
+### Post Game Login
 |             | 
 |:-----------:|
 |![DisplayA][]| 
