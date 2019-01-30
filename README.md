@@ -7,7 +7,7 @@
 |:-----------:|
 |![DisplayA][]| 
 
-### Game Lmap and Instruction
+### Game Map and Instruction
 |             | 
 |:-----------:|
 |![DisplayC][]| 
@@ -45,35 +45,54 @@ In fulfillment of expectation for STEC 3860 : Software development I, at Georgia
 ---
 
 ## Code Snippet
-		void setup() { //This is the setUp method that is ran only once in the game to  
-		  initiate every other processes in the draw method
-		  seconds =0; 
-		  minutes =33;
-		  randomlyCreateBunnies = false; 
-		  textFont = createFont("data.Consolas-48.vlw", 48); //our new font to write text 
-		  //drawBunny = false;
-		  scoreBunny = false;
-		  score = 0; //initial value of score
-		  ArrayList holeArray =  new ArrayList<Holes>(); //This arrayList stores the six hole objects, so we can create the six circles from the same (1) Hole object instead of creating six different circles
-		  holeArray.add(hole1a);//adds hole1 to the ArrayList, name holeArray
-		  holeArray.add(hole1b);//adds hole2 to the ArrayList
-		  holeArray.add(hole1c);//adds hole3 to the ArrayList
-		  holeArray.add(hole2a);//adds hole4 to the ArrayList
-		  holeArray.add(hole2b);//adds hole5 to the ArrayList
-		  holeArray.add(hole1c);//adds hole6 to the ArrayList
-		  start=3;
-		  mouseClicked =0;//initial value of mouseClicked
+		package view;
+import controller.GameController;
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
-		  size (594, 842);//The width and heigth of the game window
+public class GUI extends Application {
+    // try extending to stage
+    //static members
+    private static Stage stage;
+    private static Scene scene;
 
-		  //frameRate(250);//the rate/speed with which the images are displayed when the game is run.
-		  background =  loadImage ("background.png");//stores the background  image into background variable
-		  goodBunny = loadImage("goodBunny.png");//stores a bunny image into the goodBunny variable
-		  goodBunny.resize(85, 85);//resize the bunny image to specified width and heigth
-		  hammer = loadImage("hammer.png");//stores an hammer image into hammer variable
-		  background.resize(594, 842);//resizes the background image
-		  font1 = loadFont("AgencyFB-Bold-48.vlw");
-		}
+
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        stage = primaryStage; //link our primaryStage variable to the GUI's primary stage so we can be able to acces it in the contoroller. 
+        GameController guiController = new GameController(); //instance of gui controller which controlls all instances of gui-view and classes-model
+        //guiController.setNodesForGui();
+        guiController.setSceneAndStageForGUI(); // this updates GUi accordingly...
+        guiController.getUserInputFromTextField();
+        guiController.setRoomDetails();
+        // show the gui upon running the app
+        primaryStage.show();
+    }
+    public static void main(String[] args) {
+        Application.launch(args);
+    }
+
+    // static getters and setters
+    public static Stage getStage() {
+        return stage;
+    }
+
+    public static void setStage(Stage stage) {
+        GUI.stage = stage;
+    }
+
+
+    public static Scene getScene() {
+        return scene;
+    }
+
+    public static void setScene(Scene scene) {
+        GUI.scene = scene;
+    }
+    
+}
+
 
 
 ## Acknowledgments
