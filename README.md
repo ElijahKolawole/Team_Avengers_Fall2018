@@ -2,6 +2,12 @@
 
 ## Game screenshot
 
+
+### Uer Login Screen
+|             |
+|:-----------:|
+|![Login][]| 
+
 ### Game Login
 |             | 
 |:-----------:|
@@ -11,6 +17,7 @@
 |             | 
 |:-----------:|
 |![DisplayC][]| 
+
 ### Game GUI
 |             | 
 |:-----------:|
@@ -112,6 +119,8 @@ Special thanks to the following faculty member who helped in directing us in thi
 [displayB]: https://github.com/ElijahKolawole/Team_Avengers_Fall2018/blob/master/src/image/page-two.PNG  "Game UI Image"
 
 [displayC]: https://github.com/ElijahKolawole/Team_Avengers_Fall2018/blob/master/src/image/page-three.PNG "Map and Instruction"
+
+[login]: https://github.com/ElijahKolawole/Team_Avengers_Fall2018/blob/master/src/image/login.PNG "User Login"
 
 
 
