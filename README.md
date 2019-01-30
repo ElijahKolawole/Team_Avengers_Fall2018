@@ -76,8 +76,10 @@ Special thanks to the following faculty member who helped in directing us in thi
 [processing.js]: https://processing.org/  "Processing Homepage"
 [here]: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html  "Java 8 Download"
 [documentation]: https://docs.oracle.com/en/java/javase/11/
-[displayA]: https://github.com/ElijahKolawole/Whack_an_animal/blob/master/data/displayA.PNG  "Load Game Image"
-[displayB]: https://github.com/ElijahKolawole/Whack_an_animal/blob/master/data/displayB.PNG  "Game UI Image"
+[displayA]: https://github.com/ElijahKolawole/Team_Avengers_Fall2018/blob/master/src/image/page-one.PNG  "Login Image"
+[displayB]: https://github.com/ElijahKolawole/Team_Avengers_Fall2018/blob/master/src/image/page-two.PNG  "Game UI Image"
+
+[displayC]: https://github.com/ElijahKolawole/https://github.com/ElijahKolawole/Team_Avengers_Fall2018/blob/master/src/image/page-three.PNG  "Map and Instruction"
 
 
 
