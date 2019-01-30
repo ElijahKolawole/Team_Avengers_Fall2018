@@ -1,4 +1,20 @@
+
+
 # Citadel of Storms : A text based game.
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  
+- [Citadel of Storms : A text based game.](#citadel-of-storms--a-text-based-game)
+  - [Motivation](#motivation)
+  - [Contributors](#contributors)
+      - [Project Roles:](#project-roles)
+  - [Technology and tools](#technology-and-tools)
+  - [Code Snippet](#code-snippet)
+  - [Acknowledgments](#acknowledgments)
+  - [License & copyright](#license--copyright)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 |Loading Game | Game UI      |
 |:-----------:|:----------:  |
