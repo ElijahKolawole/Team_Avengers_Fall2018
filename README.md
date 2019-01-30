@@ -1,8 +1,22 @@
 # Citadel of Storms : A text based game.
 
-|Loading Game | Game UI      |
-|:-----------:|:----------:  |
-|![DisplayA][]| ![DisplayB][]|
+## Game screenshot
+
+### Game Login
+|             | 
+|:-----------:|
+|![DisplayA][]| 
+
+### Game Lmap and Instruction
+|             | 
+|:-----------:|
+|![DisplayC][]| 
+### Game GUI
+|             | 
+|:-----------:|
+|![DisplayB][]| 
+
+
 
 
 Code and document details for whack-an-animal users and interested developers. Suggestions, 
@@ -79,7 +93,7 @@ Special thanks to the following faculty member who helped in directing us in thi
 [displayA]: https://github.com/ElijahKolawole/Team_Avengers_Fall2018/blob/master/src/image/page-one.PNG  "Login Image"
 [displayB]: https://github.com/ElijahKolawole/Team_Avengers_Fall2018/blob/master/src/image/page-two.PNG  "Game UI Image"
 
-[displayC]: https://github.com/ElijahKolawole/https://github.com/ElijahKolawole/Team_Avengers_Fall2018/blob/master/src/image/page-three.PNG  "Map and Instruction"
+[displayC]: https://github.com/ElijahKolawole/Team_Avengers_Fall2018/blob/master/src/image/page-three.PNG "Map and Instruction"
 
 
 
