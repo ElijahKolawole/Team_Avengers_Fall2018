@@ -5,6 +5,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  
 - [Citadel of Storms : A text based game.](#citadel-of-storms--a-text-based-game)
+ - [Game screenshot](#game-screenshot)
   - [Motivation](#motivation)
   - [Contributors](#contributors)
       - [Project Roles:](#project-roles)
